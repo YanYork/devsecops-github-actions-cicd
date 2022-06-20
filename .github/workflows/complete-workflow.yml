@@ -45,6 +45,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: 'https://nitroera.link/'
+          target: 'http://www.lethlib.ca/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
